@@ -21,7 +21,7 @@
     --blend-color-2: transparent;
     --blend-color-3: transparent;
     --blend-color-4: transparent;
-    --blend-color-5: #af4949;
+    --blend-color-5: #244BA6;
 }
 
 @font-face {
@@ -133,7 +133,7 @@ body {
 }
 
 .color_danger {
-    color: #ef121b;
+    color: #244BA6;
 }
 
 .color_white {
@@ -184,7 +184,7 @@ button.typewriter {
 
 input[type="radio"].toggle { display: none; }
 input[type="radio"].toggle:checked + label {
-    background-color: #714cdf;
+    background-color: #244BA6;
     color: #fff;
 }
 
@@ -390,7 +390,7 @@ input[type="radio"].toggle:checked + label {
     left: calc(-1 * var(--gap-horizontal));
     width: calc(100% + var(--gap-horizontal) * 2);
     height: calc(100% + var(--gap-vertical) * 2);
-    background: url(../images/bg.png);
+    background: url(../images/bg2.png);
     transform: translate3d(0, 0, 0);
     background-blend-mode: var(--blend-mode-1);
     background-position: right;
@@ -694,7 +694,7 @@ span.ok {
 }
 
 span.fail {
-    color: red;
+    color: #244BA6;
 }
 
 span.ok:before,

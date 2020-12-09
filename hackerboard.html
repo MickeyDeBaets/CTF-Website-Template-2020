@@ -5,7 +5,7 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>Lakshya CTF</title>
+    <title>FCCU CTF</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
 
@@ -36,13 +36,14 @@
                 <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                     <div class="navbar-nav">
                         <a href="index.html" class="pl-md-0 p-3 text-decoration-none text-light">
-                            <h3 class="bold"><span class="color_danger">LAKSHYA</span><span class="color_white">CTF</span></h3>
+                            <h3 class="bold"><span class="color_danger">FCCU</span><span class="color_white">CTF</span>
+                                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Police_of_Belgium_insignia.svg/1200px-Police_of_Belgium_insignia.svg.png" alt="" height="35px"></h3>
                         </a>
                     </div>
                     <div class="navbar-nav ml-auto">
                         <a href="index.html" class="p-3 text-decoration-none text-light bold">Home</a>
                         <a href="about.html" class="p-3 text-decoration-none text-light bold">About</a>
-                        <a href="hackerboard.html" class="p-3 text-decoration-none text-white bold">Hackerboard</a>
+                        <a href="hackerboard.html" class="p-3 text-decoration-none text-white bold">Leaderboard</a>
                         <a href="login.html" class="p-3 text-decoration-none text-light bold">Login</a>
                         <a href="register.html" class="p-3 text-decoration-none text-light bold">Register</a>
                     </div>
@@ -56,9 +57,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-12">
-                    <h1 class="display-1 bold color_white content__title text-center"><span class="color_danger">HACKER</span>BOARD<span class="vim-caret">&nbsp;</span></h1>
+                    <h1 class="display-1 bold color_white content__title text-center"><span class="color_danger">LEADER</span>BOARD<span class="vim-caret">&nbsp;</span></h1>
                     <p class="text-grey lead text-spacey text-center hackerFont">
-                        Where the world get's ranked!
+                        Where everyone gets ranked!
                     </p>
                     <div class="row justify-content-center my-5">
                         <div class="col-xl-10">
@@ -82,31 +83,38 @@
                         <tbody>
                             <tr>
                                 <th scope="row">1</th>
-                                <td>liveoverflow</td>
+                                <td>Thomas Hayen</td>
                                 <td>8</td>
                                 <td>42:59</td>
                                 <td>2540</td>
                             </tr>
                             <tr>
                                 <th scope="row">2</th>
-                                <td>CR007</td>
+                                <td>Mickey De Baets</td>
                                 <td>6</td>
                                 <td>44:59</td>
                                 <td>1900</td>
                             </tr>
                             <tr>
                                 <th scope="row">3</th>
-                                <td>anonymous</td>
+                                <td>Ruben Luyten</td>
                                 <td>4</td>
                                 <td>40:00</td>
                                 <td>650</td>
                             </tr>
                             <tr>
                                 <th scope="row">4</th>
-                                <td>ashawe</td>
+                                <td>Quinten Broeckx</td>
                                 <td>5</td>
                                 <td>40:10</td>
                                 <td>550</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">5</th>
+                                <td>Robin Bruynseels</td>
+                                <td>4</td>
+                                <td>43:00</td>
+                                <td>500</td>
                             </tr>
                         </tbody>
                     </table>
@@ -125,7 +133,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     <script>
         var s1 = {
-            label: 'ashawe',
+            label: 'Thomas',
             borderColor: 'blue',
             steppedLine: true,
             data: [{
@@ -153,7 +161,7 @@
         };
 
         var s3 = {
-            label: 'anonymous',
+            label: 'Mickey',
             borderColor: 'green',
             steppedLine: true,
             data: [{
@@ -178,7 +186,7 @@
         };
 
         var s2 = {
-            label: 'CR007',
+            label: 'Ruben',
             borderColor: 'red',
             steppedLine: true,
             data: [{
@@ -206,7 +214,7 @@
         };
 
         var s4 = {
-            label: 'liveoverflow',
+            label: 'Quinten',
             borderColor: 'pink',
             steppedLine: true,
             data: [{
@@ -239,11 +247,45 @@
             }, ]
         };
 
+        var s5 = {
+            label: 'Robin',
+            borderColor: 'purple',
+            steppedLine: true,
+            data: [{
+                x: '2017-01-06 00:00:00',
+                y: 00
+            }, {
+                x: '2017-01-06 00:03:00',
+                y: 00
+            }, {
+                x: '2017-01-06 00:07:34',
+                y: 00
+            }, {
+                x: '2017-01-06 00:10:45',
+                y: 00
+            }, {
+                x: '2017-01-06 00:13:29',
+                y: 00
+            }, {
+                x: '2017-01-06 00:21:00',
+                y: 100
+            }, {
+                x: '2017-01-06 00:33:59',
+                y: 250
+            }, {
+                x: '2017-01-06 00:39:00',
+                y: 350
+            }, {
+                x: '2017-01-06 00:42:59',
+                y: 500
+            }, ]
+        };
+
         var ctx = document.getElementById('myChart').getContext('2d');
         var chart = new Chart(ctx, {
             type: 'line',
             data: {
-                datasets: [s1, s2, s3, s4]
+                datasets: [s1, s2, s3, s4, s5]
             },
             options: {
                 scales: {
