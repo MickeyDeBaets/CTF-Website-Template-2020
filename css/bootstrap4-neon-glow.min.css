@@ -3128,14 +3128,14 @@ fieldset:disabled a.btn {
 
 .btn-danger {
     color: #fff;
-    background-color: #ef121b;
-    border-color: #ef121b
+    background-color: #244BA6;
+    border-color: #244BA6
 }
 
 .btn-danger:hover {
     color: #fff;
-    background-color: #ff163c;
-    border-color: #ff0931
+    background-color: #244BA6;
+    border-color: #244BA6
 }
 
 .btn-danger.focus,
@@ -3147,15 +3147,15 @@ fieldset:disabled a.btn {
 .btn-danger.disabled,
 .btn-danger:disabled {
     color: #fff;
-    background-color: #ef121b;
-    border-color: #ef121b
+    background-color: #244BA6;
+    border-color: #244BA6
 }
 
 .btn-danger:not(:disabled):not(.disabled).active,
 .btn-danger:not(:disabled):not(.disabled):active,
 .show>.btn-danger.dropdown-toggle {
     color: #fff;
-    background-color: #ff0931;
+    background-color: #244BA6;
     border-color: #fb0029
 }
 
@@ -3463,8 +3463,8 @@ fieldset:disabled a.btn {
 .btn-outline-danger:not(:disabled):not(.disabled):active,
 .show>.btn-outline-danger.dropdown-toggle {
     color: #fff;
-    background-color: #ef121b;
-    border-color: #ef121b
+    background-color: #244BA6;
+    border-color: #244BA6
 }
 
 .btn-outline-danger:not(:disabled):not(.disabled).active:focus,
@@ -11727,8 +11727,8 @@ a.text-dark:hover {
 
 .btn-shadow.btn-danger:hover,
 .btn-shadow.btn-outline-danger:hover {
-    -webkit-box-shadow: 5px 5px 0 #244BA6, 4px 4px 0 #244BA6, 3px 3px 0 #244BA6, 2px 2px 0 #244BA6, 1px 1px 0 #244BA6;
-    box-shadow: 5px 5px 0 #244BA6, 4px 4px 0 #244BA6, 3px 3px 0 #244BA6, 2px 2px 0 #244BA6, 1px 1px 0 #244BA6;
+    -webkit-box-shadow: 5px 5px 0 #0031A5, 4px 4px 0 #0031A5, 3px 3px 0 #0031A5, 2px 2px 0 #0031A5, 1px 1px 0 #0031A5;
+    box-shadow: 5px 5px 0 #0031A5, 4px 4px 0 #0031A5, 3px 3px 0 #0031A5, 2px 2px 0 #0031A5, 1px 1px 0 #0031A5;
     -webkit-transform: translate(-2px, -2px);
     -o-transform: translate(-2px, -2px);
     transform: translate(-2px, -2px);
@@ -11860,7 +11860,7 @@ a.text-dark:hover {
 
 .btn-shadow.btn-danger:hover,
 .btn-shadow.btn-outline-danger:hover {
-    background-color: #ef121b
+    background-color: #244BA6
 }
 
 .btn-shadow.btn-light:hover,
